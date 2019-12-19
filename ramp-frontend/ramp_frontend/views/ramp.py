@@ -567,6 +567,7 @@ def ask_for_event(problem_name):
 @flask_login.login_required
 def toggle_competition(submission_hash):
     """Pulling out or putting a submission back into competition.
+
     Parameters
     ----------
     submission_hash : str
